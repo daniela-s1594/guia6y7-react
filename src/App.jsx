@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import List from './components/componente1/listas'
-import './App.css'
+//import ListPersona from "./components/componente1/persona";
+//import ListPersona2 from "./components/componente1/diseniadores";
+import Listfood from "./components/componente1/recetas";
+import "./App.css";
 
 function App() {
   return (
     <>
-     <List/>
+      <Listfood/>
     </>
   )
 }
